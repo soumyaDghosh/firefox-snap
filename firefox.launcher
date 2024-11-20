@@ -52,4 +52,4 @@ if [ ! -d "$DOTMOZILLA" ]; then
   fi
 fi
 
-exec "$SNAP/usr/lib/firefox/firefox" "$@"
+exec "$SNAP/usr/lib/firefox/firefox" --name firefox_firefox "$@"
